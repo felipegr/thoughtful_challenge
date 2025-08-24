@@ -11,6 +11,12 @@ The package is then classified as:
 - **REJECTED**: packages that are **both** heavy and bulky are rejected.
 
 ## How to run:
+This project uses [uv](https://docs.astral.sh/uv/) as the dependency manager. To install it, run:
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Then, to run the project, run:
 ```
 uv run sort.py <width>, <height>, <length>, <mass>
 ```
